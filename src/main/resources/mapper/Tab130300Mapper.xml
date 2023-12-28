@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhgs.api.mapper.Tab130300Mapper">
+
+    <insert id="saveTab130300" parameterType="com.yhgs.api.model.Tab130300">
+        insert into testdata.Tab130300 (StoreId,RelatedDocTypeId,RelatedDocStoreId,OppTime,Dwmc,Dwbm,MachineId,SerialNo,PileNo,TestTime,PileLength,PileDiameter,PileVelocity,ConcreteStrength,
+                                        GpsIsValid,GpsLongitude,GpsLatitude,ShangGangZheng,CreateTime,CreateName,IsHighStrainTest,LengthUnderSensor,HammerWeight,HammerDropHeight,SectionArea,BottomArea,Density,SectionCircum,Jc,DepthIn,Vs,BaseInfoId,IsValid,ComId,DataUrl)
+        values (nextval('storeid_sequence_testdata'),#{RelatedDocTypeId,jdbcType=BIGINT},#{RelatedDocStoreId,jdbcType=VARCHAR},CURRENT_TIMESTAMP ,#{Dwmc,jdbcType=VARCHAR},#{Dwbm,jdbcType=VARCHAR},#{MachineId,jdbcType=VARCHAR},#{SerialNo,jdbcType=VARCHAR},
+                #{PileNo,jdbcType=VARCHAR},#{TestTime,jdbcType=DATE},#{PileLength,jdbcType=REAL},#{PileDiameter,jdbcType=VARCHAR},#{PileVelocity,jdbcType=REAL},#{ConcreteStrength,jdbcType=VARCHAR},#{GpsIsValid,jdbcType=BIGINT},#{GpsLongitude,jdbcType=REAL},#{GpsLatitude,jdbcType=REAL},
+                #{ShangGangZheng,jdbcType=VARCHAR},CURRENT_TIMESTAMP,#{CreateName,jdbcType=VARCHAR},#{IsHighStrainTest,jdbcType=BIGINT},#{LengthUnderSensor,jdbcType=REAL},#{HammerWeight,jdbcType=REAL}, #{HammerDropHeight,jdbcType=REAL},#{SectionArea,jdbcType=REAL},
+                #{BottomArea,jdbcType=REAL},#{Density,jdbcType=REAL},#{SectionCircum,jdbcType=REAL},#{Jc,jdbcType=REAL},#{DepthIn,jdbcType=REAL},#{Vs,jdbcType=REAL},#{BaseInfoId,jdbcType=VARCHAR},#{IsValid,jdbcType=BIGINT},#{ComId,jdbcType=VARCHAR},#{DataUrl,jdbcType=VARCHAR})
+    </insert>
+
+</mapper>

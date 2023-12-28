@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce74cefe-91b0-4d8d-8ca2-a877f15d7b22" name="变更" comment="12">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yi" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YWePN4Zcqq9L2aQ36OCwxSDB25" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dell/Desktop/xiazai/UPLOAD_DATA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "76f3e183091704bebaadb8f4b7e10cde"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
+    ],
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\Desktop\UPLOAD_DATA" />
+      <recent name="C:\Users\dell\Desktop\UPLOAD_DATA\src\main\resources" />
+      <recent name="C:\Users\dell\Desktop\UPLOAD_DATA\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yhgs.api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yhgs.api.util" />
+      <recent name="com.yhgs.api.model" />
+      <recent name="com.yhgs.api.controller" />
+      <recent name="com.yhgs.api.service" />
+      <recent name="com.yhgs.api.service.impl" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="应用程序.WebConfig">
+    <configuration name="Tab130300Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yhgs.api.controller.Tab130300Controller" />
+      <module name="UPLOAD_DATA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhgs.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tab130305Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yhgs.api.controller.Tab130305Controller" />
+      <module name="UPLOAD_DATA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhgs.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yhgs.api.config.WebConfig" />
+      <module name="UPLOAD_DATA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhgs.api.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XJarController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yhgs.api.controller.XJarController" />
+      <module name="UPLOAD_DATA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhgs.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.yhgs.api.config.GeneratorCodeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yhgs.api.config.GeneratorCodeConfig" />
+      <module name="UPLOAD_DATA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhgs.api.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="UPLOAD_DATA" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhgs.api.UploadDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UploadDataApplication" />
+      <item itemvalue="应用程序.WebConfig" />
+      <item itemvalue="应用程序.XJarController" />
+      <item itemvalue="应用程序.Tab130300Controller" />
+      <item itemvalue="应用程序.Tab130305Controller" />
+      <item itemvalue="应用程序.com.yhgs.api.config.GeneratorCodeConfig" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.WebConfig" />
+        <item itemvalue="应用程序.XJarController" />
+        <item itemvalue="应用程序.com.yhgs.api.config.GeneratorCodeConfig" />
+        <item itemvalue="应用程序.Tab130300Controller" />
+        <item itemvalue="应用程序.Tab130305Controller" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="815029db-8464-4d63-8986-2fe720cf4f87" name="变更" comment="" />
+      <created>1700645737536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700645737536</updated>
+      <workItem from="1700645739983" duration="6897000" />
+      <workItem from="1700701213149" duration="34588000" />
+      <workItem from="1700787527348" duration="19737000" />
+      <workItem from="1701050731997" duration="19945000" />
+      <workItem from="1701133468896" duration="29955000" />
+      <workItem from="1701219671724" duration="25229000" />
+      <workItem from="1701249348019" duration="753000" />
+      <workItem from="1701306299943" duration="30743000" />
+      <workItem from="1701392510675" duration="14970000" />
+      <workItem from="1701651471549" duration="20861000" />
+      <workItem from="1701738534376" duration="9810000" />
+      <workItem from="1701824711984" duration="6943000" />
+      <workItem from="1701910715432" duration="3058000" />
+      <workItem from="1701997261524" duration="601000" />
+      <workItem from="1702001374035" duration="1277000" />
+      <workItem from="1702256875019" duration="9619000" />
+      <workItem from="1702343159203" duration="9201000" />
+      <workItem from="1702429175050" duration="6805000" />
+      <workItem from="1702516224996" duration="20551000" />
+      <workItem from="1702604712950" duration="8403000" />
+      <workItem from="1702861619976" duration="21099000" />
+      <workItem from="1702948151963" duration="13252000" />
+      <workItem from="1703034207000" duration="2096000" />
+      <workItem from="1703121185453" duration="761000" />
+      <workItem from="1703206919989" duration="8965000" />
+      <workItem from="1703465925555" duration="12988000" />
+      <workItem from="1703499796236" duration="2794000" />
+      <workItem from="1703553155577" duration="8103000" />
+      <workItem from="1703638581460" duration="4688000" />
+      <workItem from="1703725407769" duration="11551000" />
+      <workItem from="1703746687473" duration="2803000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目">
+      <created>1703735394154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703735394154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目">
+      <created>1703744217468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703744217468</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目">
+      <created>1703746255062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703746255062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

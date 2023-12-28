@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhgs.api.mapper.Tab130350Mapper">
+
+    <insert id="saveTab130350" parameterType="com.yhgs.api.model.Tab130350" >
+        insert into testdata.Tab130350 (StoreId,RelatedDocTypeId,RelatedDocStoreId,OppTime,Dwmc,Dwbm,BaseInfoId,ImageUrl)
+            values (nextval('storeid_sequence_testdata'),#{RelatedDocTypeId,jdbcType=BIGINT},#{RelatedDocStoreId,jdbcType=VARCHAR},CURRENT_TIMESTAMP,#{Dwmc,jdbcType=VARCHAR},#{Dwbm,jdbcType=VARCHAR},#{BaseInfoId,jdbcType=VARCHAR},#{ImageUrl,jdbcType=VARCHAR})
+    </insert>
+
+</mapper>

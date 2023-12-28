@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhgs.api.mapper.Tab130305Mapper">
+
+    <insert id="saveTab130305" parameterType="com.yhgs.api.model.Tab130305" >
+        insert into testdata.Tab130305 (StoreId,RelatedDocTypeId,RelatedDocStoreId,OppTime,Dwmc,Dwbm,MachineId,SerialNo,PileNo,TestTime,PileLength,PileDiameter,ConcreteStrength,TubeCount,SectionCount,Step,Angle,
+            GpsIsValid,GpsLongitude,GpsLatitude,ShangGangZheng,CreateTime,CreateName,BaseInfoId,IsValid,ComId,DataUrl)
+            values (nextval('storeid_sequence_testdata'),#{RelatedDocTypeId,jdbcType=BIGINT},#{RelatedDocStoreId,jdbcType=VARCHAR},CURRENT_TIMESTAMP ,#{Dwmc,jdbcType=VARCHAR},#{Dwbm,jdbcType=VARCHAR},#{MachineId,jdbcType=VARCHAR},#{SerialNo,jdbcType=VARCHAR},
+            #{PileNo,jdbcType=VARCHAR},#{TestTime,jdbcType=DATE},#{PileLength,jdbcType=REAL},#{PileDiameter,jdbcType=VARCHAR},#{ConcreteStrength,jdbcType=VARCHAR},#{TubeCount,jdbcType=BIGINT},#{SectionCount,jdbcType=BIGINT},#{Step,jdbcType=BIGINT},
+            #{Angle,jdbcType=BIGINT},#{GpsIsValid,jdbcType=BIGINT},#{GpsLongitude,jdbcType=REAL},#{GpsLatitude,jdbcType=REAL},#{ShangGangZheng,jdbcType=VARCHAR},CURRENT_TIMESTAMP ,#{CreateName,jdbcType=VARCHAR},#{BaseInfoId,jdbcType=VARCHAR},
+            #{IsValid,jdbcType=BIGINT},#{ComId,jdbcType=VARCHAR},#{DataUrl,jdbcType=VARCHAR})
+    </insert>
+
+</mapper>

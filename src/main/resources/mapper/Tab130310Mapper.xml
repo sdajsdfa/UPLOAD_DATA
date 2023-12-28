@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhgs.api.mapper.Tab130310Mapper">
+
+    <sql id="Base_Column_List">
+        storeid,relateddoctypeid,relateddocstoreid,
+        opptime,dwmc,dwbm,
+        baseinfoid,machineid,serialno,
+        pileno,testtype,maxload,
+        starttime,sourceparam,recordcount,
+        gpsisvalid,gpslongitude,gpslatitude,
+        istesting,currentparam,currentdata,
+        createtime,updatetime,createname,
+        shanggangzheng,isvalid,comid,
+        isgroundtest,boardarea,lastloaddirect,
+        lastgrade,lastsamplecount,lasttimecount,
+        lastloading,teststatus,dataurl
+    </sql>
+    <insert id="saveTab130310" parameterType="com.yhgs.api.model.Tab130310">
+        insert into testdata.Tab130310 ( storeid,relateddoctypeid,relateddocstoreid,
+                                         opptime,dwmc,dwbm,
+                                         baseinfoid,machineid,serialno,
+                                         pileno,testtype,maxload,
+                                         starttime,sourceparam,recordcount,
+                                         gpsisvalid,gpslongitude,gpslatitude,
+                                         istesting,currentparam,currentdata,
+                                         createtime,updatetime,creatername,
+                                         shanggangzheng,isvalid,comid,
+                                         isgroundtest,boardarea,lastloaddirect,
+                                         lastgrade,lastsamplecount,lasttimecount,
+                                         lastloading,teststatus,dataurl)
+        values (nextval('storeid_sequence_testdata'),#{RelatedDocTypeId,jdbcType=BIGINT},#{RelatedDocStoreId,jdbcType=VARCHAR},CURRENT_TIMESTAMP ,#{Dwmc,jdbcType=VARCHAR},#{Dwbm,jdbcType=VARCHAR},#{BaseInfoId,jdbcType=VARCHAR},#{MachineId,jdbcType=VARCHAR},#{SerialNo,jdbcType=VARCHAR},#{PileNo,jdbcType=VARCHAR},#{TestType,jdbcType=VARCHAR},#{MaxLoad,jdbcType=REAL}, #{StartTime,jdbcType=TIMESTAMP},#{SourceParam,jdbcType=VARCHAR}, #{RecordCount,jdbcType=BIGINT}, #{GpsIsValid,jdbcType=BIGINT},#{GpsLongitude,jdbcType=REAL},
+                #{GpsLatitude,jdbcType=REAL},#{IsTesting,jdbcType=BIGINT},#{CurrentParam,jdbcType=VARCHAR},#{CurrentData,jdbcType=VARCHAR},#{CreateTime,jdbcType=TIMESTAMP},#{UpdateTime,jdbcType=TIMESTAMP},#{CreaterName,jdbcType=VARCHAR},#{ShangGangZheng,jdbcType=VARCHAR},
+                #{IsValid,jdbcType=BIGINT},#{ComId,jdbcType=VARCHAR},#{IsGroundTest,jdbcType=BIGINT},#{BoardArea,jdbcType=REAL},#{LastLoadDirect,jdbcType=BIGINT},#{LastGrade,jdbcType=BIGINT} ,#{LastSampleCount,jdbcType=BIGINT},#{LastTimeCount,jdbcType=BIGINT},
+                #{LastLoading,jdbcType=REAL},#{TestStatus,jdbcType=VARCHAR},#{DataUrl,jdbcType=VARCHAR})
+    </insert>
+</mapper>

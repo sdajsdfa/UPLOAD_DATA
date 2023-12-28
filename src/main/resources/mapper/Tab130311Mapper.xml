@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhgs.api.mapper.Tab130311Mapper">
+
+
+
+    <sql id="Base_Column_List">
+        storeid,relateddoctypeid,relateddocstoreid,
+        opptime,baseinfoid,sampletime,
+        loaddirect,grade,samplecount,
+        timecount,loading,realloading,
+        realpress,s1,s2,
+        s3,s4,s5,
+        s6,s7,s8,
+        s9,s10,s11,
+        s12,saverage,createtime,
+        creatername,u1,u2,
+        u3,u4,u5,
+        u6,u7,u8,
+        u9,u10,u11,
+        u12
+    </sql>
+    <insert id="saveTab130311"  parameterType="com.yhgs.api.model.Tab130311">
+        insert into testdata.Tab130311 (  storeid,relateddoctypeid,relateddocstoreid,
+                                          opptime,baseinfoid,sampletime,
+                                          loaddirect,grade,samplecount,
+                                          timecount,loading,realloading,
+                                          realpress,s1,s2,
+                                          s3,s4,s5,
+                                          s6,s7,s8,
+                                          s9,s10,s11,
+                                          s12,saverage,createtime,
+                                          creatername,u1,u2,
+                                          u3,u4,u5,
+                                          u6,u7,u8,
+                                          u9,u10,u11,
+                                          u12)
+        values (nextval('storeid_sequence_testdata'),#{RelatedDocTypeId,jdbcType=BIGINT},#{RelatedDocStoreId,jdbcType=VARCHAR},CURRENT_TIMESTAMP,#{BaseInfoId,jdbcType=VARCHAR},#{SampleTime,jdbcType=TIMESTAMP},#{LoadDirect,jdbcType=BIGINT},#{Grade,jdbcType=BIGINT},#{SampleCount,jdbcType=BIGINT},
+                #{TimeCount,jdbcType=BIGINT},#{Loading,jdbcType=REAL},#{RealLoading,jdbcType=REAL},#{RealPress,jdbcType=REAL},#{S1,jdbcType=REAL},#{S2,jdbcType=REAL},#{S3,jdbcType=REAL},#{S4,jdbcType=REAL},#{S5,jdbcType=REAL},#{S6,jdbcType=REAL},#{S7,jdbcType=REAL},#{S8,jdbcType=REAL},
+                #{S9,jdbcType=REAL},#{S10,jdbcType=REAL},#{S11,jdbcType=REAL},#{S12,jdbcType=REAL},#{SaverAge,jdbcType=REAL},#{CreateTime,jdbcType=TIMESTAMP},#{CreaterName,jdbcType=VARCHAR},#{U1,jdbcType=REAL},#{U2,jdbcType=REAL},#{U3,jdbcType=REAL},#{U4,jdbcType=REAL},#{U5,jdbcType=REAL},
+                #{U6,jdbcType=REAL},#{U7,jdbcType=REAL},#{U8,jdbcType=REAL},#{U9,jdbcType=REAL},#{U10,jdbcType=REAL},#{U11,jdbcType=REAL},#{U12,jdbcType=REAL}
+            )
+    </insert>
+</mapper>
